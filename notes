@@ -1,0 +1,35 @@
+- Php is server side rendering
+
+- Name of the Class === name of the file
+
+- Constructor will be called automatically when you create a new class of DB
+
+- Get -> Send data in the HTTP header -- URL -- This data will not be incrupted -- Use it When Getting data from database
+- Post -> Send date in the HTTP body -- Use it With creation -- This Could be incrupted
+
+- isset() --> checks is the key exits in the POST array or not -- NOTE -- it doesn't care if the key has a value or not
+-- unset --> delete a key from an array
+
+-- class Alert
+public static function PrintMessage($text, $type)
+static --> means it belongs to the class directly doesn't need to create an object of the class
+
+-- prepare -> Returns a new object from a another class
+
+-- Hashing is one way incryption
+-- Sha 1 is one way incryption
+
+
+-- prepare -> good for performance and security -- prevents SQL injection
+- it loads the statement to just one time to the memory 
+
+
+-- Doing redirect to another location
+
+--password_verify -> compares the password with the hashed password
+
+-- New session id refers to a new empty associative array [key value pairs]
+
+-- Session start check if you have a session or not ? send the session id to the server : create a new session Id ;
+
+-- session_id() returns ? string : false;
